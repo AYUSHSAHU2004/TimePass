@@ -1,0 +1,17 @@
+
+  .flower {
+    position: absolute;
+    width: 20px; /* Adjust size of flowers */
+    opacity: 0.7;
+    animation: fall linear infinite;
+  }
+
+  @keyframes fall {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    100% {
+      transform: translateY(100vh) rotate(360deg); /* Fall to the bottom with rotation */
+    }
+  }
+
