@@ -1,5 +1,5 @@
 // src/App.jsx
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useSpring, animated } from '@react-spring/web';
 
 // Import your images
